@@ -1,8 +1,7 @@
 # MathSeries
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/math_series`. To experiment with that code, run `bin/console` for an interactive prompt.
+A simple ruby gem to generate different types of math series.
 
-TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
@@ -22,7 +21,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+  series = MathSeries.new(<name of series>)
+  series.print <number>
+
+## Examples
+  series = MathSeries.new('number')
+  series.print 5 #=> [1,2,3,4,5]
 
 ## Development
 
@@ -32,6 +36,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
+If you know any series and wanted to add that to the gem then feel free to do so.
 Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/math_series. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
 
 
