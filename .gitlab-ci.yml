@@ -1,0 +1,7 @@
+before_script:
+  - gem install bundler
+  - bundle install
+
+test:
+  script:
+    - bundle exec rake test
