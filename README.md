@@ -20,14 +20,19 @@ Or install it yourself as:
     $ gem install math_series
 
 ## Usage
-
-  series = MathSeries.new(<name of series>)
-  series.print <number>
+```
+series = MathSeries.new('<name of series>'')
+series.print <number>
+```
 
 ## Examples
-  series = MathSeries.new('number')
-  series.print 5 #=> [1,2,3,4,5]
+```
+series = MathSeries.new('number')
+series.print 5 #=> [1,2,3,4,5]
 
+series = MathSeries.new('even')
+series.print 3 #=> [0,2,4]
+```
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
