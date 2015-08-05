@@ -1,4 +1,4 @@
-# MathSeries
+# MathSeries [![build status](https://ci.gitlab.com/projects/5535/status.png?ref=master)](https://ci.gitlab.com/projects/5535?ref=master)
 
 A simple ruby gem to generate different types of math series.
 
@@ -42,8 +42,9 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 ## Testing
 
 We use 'minitest' for writing unit tests.
-    rake test
-
+```
+rake test
+```
 ## Contributing
 
 If you know any series and wanted to add that to the gem then feel free to do so.
