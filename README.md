@@ -1,7 +1,16 @@
-# MathSeries [![build status](https://ci.gitlab.com/projects/5535/status.png?ref=master)](https://ci.gitlab.com/projects/5535?ref=master)
+# Math Series
 
-A simple ruby gem to generate different types of math series.
+[![Gem Version](https://badge.fury.io/rb/math_series.svg)](http://badge.fury.io/rb/math_series)
+[![Build Status](https://secure.travis-ci.org/sandipransing/math_series.svg?branch=master)](http://travis-ci.org/sandipransing/math_series)
+[![Dependency Status](https://gemnasium.com/sandipransing/math_series.svg)](https://gemnasium.com/sandipransing/math_series)
+[![License](http://img.shields.io/:license-mit-green.svg?style=flat)](http://opensource.org/licenses/MIT)
 
+A simple ruby gem to generate and print different types of math sequences.
+
+Currently following sequences are supported:
+- Fibonacci Series
+- Odd Series
+- Even Series
 
 ## Installation
 
