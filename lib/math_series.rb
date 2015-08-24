@@ -12,11 +12,15 @@ class MathSeries
   # * Odd
   # * Even
   # * Fibonacci
+  # * Power
   #
   # == Example Usage
   #   series = MathSeries.new('fibonacci')
   #
   #   series.print(4) # => [0,1,1,2]
+  #
+  #   series1 = MathSeries.new('power')
+  #   series1.print(3,3) # => [1,8,27]
   #
   extend Forwardable
 
